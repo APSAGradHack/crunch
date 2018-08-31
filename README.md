@@ -3,32 +3,35 @@ Introduction to Crunch
 
 Shiro Kuriwaki[1]
 
-Why Crunch ?
-============
+(For more questions about Crunch today, email <support@crunch.io> or find John Ray (YouGov))
 
-Online surveys have become ubiquitous, but in practice there are barriers and frustration to making use of the data:
+Why Crunch?
+===========
+
+Online surveys have become ubiquitous. But in practice there are barriers and frustration to making use of the data:
 
 -   How do I download my data?
 -   How do I analyze my data in R/Stata/Python?
 
-Additionally, in practice,
+Further in practice, we often face frustrations like:
 
--   How do I present my findings in an accessible form?
--   How can I make my code and analysis shareable?
--   After all this manipulation, how can I keep attributes like labels, question wordings, and display formats as
+-   "What question was `CC_321AH_vt` again?""
+-   Do I put my figures in PDF? PNG? Document in PDF? Word? PPT?
+-   What if a colleague has follow-up questions?
+-   After all this manipulation, how can I keep attributes like labels, question wordings, and display formats as shown?
 
 Crunch is a online-based tool recently built to facilitate such collaboration.
+
+![<https://crunch.io/>](images/login.png)
 
 Crunch Use-Cases
 ================
 
-Some firms use Crunch to manage internal analytics
+Some firms use Crunch to manage internal analytics, and/or showcase them for dissemination.
 
-And/or showcase them for dissemination
+![Interactive Toplines with a Crunch Backend](images/yougov.png)
 
-"Editors" can upload their own survey data (e.g. from Qualtrics or Survey Monkey) as `.csv` or `.sav` (SPSS) files.
-
-<https://cces.gov.harvard.edu/explore>
+"Editors" can upload their own survey data (e.g. from Qualtrics or Survey Monkey) as `.csv` or `.sav` (SPSS) files. See for example: <https://cces.gov.harvard.edu/explore>
 
 Logging in to the APSA Grad Hackathon Dataset
 =============================================
@@ -46,6 +49,8 @@ Machine-Readable is not necessary Human-Readable. Friction occurs for example wh
 -   "Grid questions" are separated into columns in a flat file (`Q1_A`, `Q1_B`, `Q1_C`), but should be presented back in its grid form
 -   Variables come in the order they were presented, but a re-grouped order might be easier to navigate.
 
+![Browse Toplines with Question Wording](images/browse.png)
+
 GUI for Analyzing
 =================
 
@@ -61,13 +66,21 @@ Also has survey-specific functionalities such as
 -   Switching between weights
 -   Grouping response choices
 
+![Create and Customize Cross-tabs](images/crosstab.png)
+
 GUI for Sharing
 ===============
 
 Crunch Editors can create html widgets of their datasets, that users can engage with (without releasing all raw data).
 
+![CrunchBox creates sharable widgets](images/crunchbox.png)
+
 Scripting by R
 ==============
+
+You can also extract, view, and edit Crunch datasets from the R package `crunch`.
+
+![The crunch R package](images/package-website.png)
 
 ``` r
 install.packages("crunch")
