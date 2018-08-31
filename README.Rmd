@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Crunch"
+title: "Introduction to Crunch: [github.com/APSAGradHack](https://github.com/APSAGradHack)"
 output: github_document
 ---
 
@@ -9,7 +9,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Shiro Kuriwaki^[PhD Candidate, Harvard Department of Government. Unaffiliated with Crunch. <https://www.shirokuriwaki.com>]
 
-(For more questions about Crunch today, email <support@crunch.io> or find John Ray (YouGov))
+
+
+(For more questions about Crunch today, email <support@crunch.io> or find John Ray (YouGov) - <john.ray@yougov.com>)
 
 
 # Why Crunch? 
@@ -21,9 +23,9 @@ Online surveys have become ubiquitous. But in practice there are barriers and fr
 
 Further in practice, we often face frustrations like:
 
-- "What question was `CC_321AH_vt` again?""
+- "What question was `CC_321AH_vt`?"
 - Do I put my figures in PDF? PNG? Document in PDF? Word? PPT?
-- What if a colleague has follow-up questions?
+- What if a colleague has follow-up data analyses?
 - After all this manipulation, how can I keep attributes like labels, question wordings, and display formats as shown?
 
 
@@ -45,12 +47,14 @@ Some firms use Crunch to manage internal analytics, and/or showcase them for dis
 
 "Editors" can upload their own survey data (e.g. from Qualtrics or Survey Monkey) as `.csv` or `.sav` (SPSS) files. See for example:  <https://cces.gov.harvard.edu/explore>
 
+Note: We will add everyone as a Viewer by default, and give Editor access to the subteam focusing on Crunch. If you are an Editor, please do not add other users.
+
 
 # Logging in to the APSA Grad Hackathon Dataset
 
 1. Sign up for a Crunch account
-1. Make sure John Ray or Shiro Kuriwaki gets your email 
-1. Sign-in to your account, and you should see `"Graduate Student APSA Hackathon Team Survey"`^[If not, try this link after making an account: <https://app.crunch.io/dataset/2c7c25d41367416c82560928cc0ee258>]
+2. Make sure John Ray or Shiro Kuriwaki gets your email 
+3. Sign-in to your account, and you should see `"Graduate Student APSA Hackathon Team Survey"`^[If not, try this link after making an account: <https://app.crunch.io/dataset/2c7c25d41367416c82560928cc0ee258>]
 
 
 # GUI for Browsing

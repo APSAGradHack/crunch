@@ -1,9 +1,9 @@
-Introduction to Crunch
+Introduction to Crunch: [github.com/APSAGradHack](https://github.com/APSAGradHack)
 ================
 
 Shiro Kuriwaki[1]
 
-(For more questions about Crunch today, email <support@crunch.io> or find John Ray (YouGov))
+(For more questions about Crunch today, email <support@crunch.io> or find John Ray (YouGov) - <john.ray@yougov.com>)
 
 Why Crunch?
 ===========
@@ -15,9 +15,9 @@ Online surveys have become ubiquitous. But in practice there are barriers and fr
 
 Further in practice, we often face frustrations like:
 
--   "What question was `CC_321AH_vt` again?""
+-   "What question was `CC_321AH_vt`?"
 -   Do I put my figures in PDF? PNG? Document in PDF? Word? PPT?
--   What if a colleague has follow-up questions?
+-   What if a colleague has follow-up data analyses?
 -   After all this manipulation, how can I keep attributes like labels, question wordings, and display formats as shown?
 
 Crunch is a online-based tool recently built to facilitate such collaboration.
@@ -32,6 +32,8 @@ Some firms use Crunch to manage internal analytics, and/or showcase them for dis
 ![Interactive Toplines with a Crunch Backend](images/yougov.png)
 
 "Editors" can upload their own survey data (e.g. from Qualtrics or Survey Monkey) as `.csv` or `.sav` (SPSS) files. See for example: <https://cces.gov.harvard.edu/explore>
+
+Note: We will add everyone as a Viewer by default, and give Editor access to the subteam focusing on Crunch. If you are an Editor, please do not add other users.
 
 Logging in to the APSA Grad Hackathon Dataset
 =============================================
